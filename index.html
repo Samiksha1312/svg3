@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll to see the magic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h2 class="title">Scroll to see the magic again!!</h2>
+    <section></section>
+    <div class="container">
+        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci eaque accusantium minima quibusdam deserunt aliquid nam earum, esse provident voluptate quas ullam et accusamus! Laboriosam eius, atque ducimus nulla reprehenderit eligendi iusto aspernatur!
+            In ab cum accusamus. Ducimus in, sit quisquam nobis dolor quidem ipsum debitis, soluta ratione non perferendis, fuga labore repudiandae error ipsam facilis vero provident recusandae doloremque optio. Error labore sequi soluta numquam aperiam
+            recusandae odit qui, a, molestias adipisci esse? Tempora exercitationem fugit quibusdam corrupti eum itaque quisquam harum debitis et libero quo minima laboriosam reiciendis officiis placeat, ullam voluptatem, optio iure sunt! Asperiores,
+            rerum rem tenetur saepe facilis sunt inventore repudiandae ipsam commodi, neque ipsa dolores adipisci quae? Iste fugit tempore provident laudantium repellendus doloribus facilis culpa esse, hic mollitia sit ratione quidem? Repellendus quaerat
+            nam nihil esse fugiat placeat aliquid laboriosam consequuntur. Ex corrupti ullam quasi placeat porro sapiente consectetur quod aspernatur, molestias necessitatibus! Voluptas deserunt tempora vero perspiciatis, odit vel nemo! Quos voluptatum
+            repellendus mollitia exercitationem magni? Libero repellendus itaque laudantium velit dolorum accusamus eaque fuga quos praesentium odio, quibusdam dignissimos saepe provident sequi architecto iusto laborum ipsum reprehenderit. Nostrum commodi
+            laboriosam, minus facere ratione reiciendis possimus tenetur quia repellat veniam cumque nobis voluptatibus culpa ex soluta doloremque voluptatum! Assumenda minima reiciendis, eveniet culpa ut eum cupiditate non quod perspiciatis cumque aut
+            doloribus facere magnam placeat quibusdam ipsam cum unde quaerat, expedita possimus corporis consequatur soluta voluptatem! Facere esse quis consequatur tempore quo incidunt nihil magni, voluptatibus libero ipsum ea optio commodi earum placeat
+            aliquid repellendus sed quae rem distinctio fugit reiciendis nostrum porro deserunt repudiandae. Pariatur reprehenderit necessitatibus mollitia dolor fugit exercitationem possimus, cumque, ducimus blanditiis doloribus nihil beatae culpa voluptates
+            aliquam vel in similique perspiciatis soluta deserunt laudantium aperiam quasi animi harum! Nostrum laborum, accusantium porro quam quo hic nulla aperiam?
+        </p>
+    </div>
+    <script type="text/javascript">
+        var section = document.querySelector('section');
+        window.addEventListener('scroll', function() {
+            var value = window.scrollY;
+            section.style.clipPath = "circle(" + value + "px at center)"
+        })
+    </script>
+</body>
+
+</html>
